@@ -34,7 +34,7 @@ Mỗi dòng dưới đây tương ứng với 4 ảnh kết quả nằm trên c�
     <td align="center"><b>Dữ liệu ban đầu</b><br><img src="Anh/DLBD_aggregation.png" width="200"/></td>
     <td align="center"><b>Ground Truth</b><br><img src="Anh/Ground_Truth_aggregation.png" width="200"/></td>
     <td align="center"><b>CSDPPO</b><br><img src="Anh/CSDPPO_aggregation.png" width="200"/></td>
-    <td align="center"><b>PGD-CSDPPO</b><br><img src="Anh/PGD_CSDPPO_aggregation.png" width="200"/></td>
+    <td align="center"><b>PGD-CSDPPO</b><br><img src="KetQuaNghienCuu/Anh/PGD_CSDPPO_aggregation.png" width="200"/></td>
   </tr>
 </table>
 
