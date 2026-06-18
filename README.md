@@ -11,29 +11,29 @@ Mỗi dòng dưới đây tương ứng với 4 ảnh kết quả nằm trên c�
 ### Bộ dữ liệu 1
 <table>
   <tr>
-    <td align="center"><b>Dữ liệu ban đầu</b><br><img src="path/to/image1_initial.png" width="200"/></td>
-    <td align="center"><b>Ground Truth</b><br><img src="path/to/image1_gt.png" width="200"/></td>
-    <td align="center"><b>CSDPPO</b><br><img src="path/to/image1_csdppo.png" width="200"/></td>
-    <td align="center"><b>PGD-CSDPPO</b><br><img src="path/to/image1_pgd.png" width="200"/></td>
+    <td align="center"><b>Dữ liệu ban đầu</b><br><img src="KetQuaNghienCuu/Anh/DLBD_flame.png" width="200"/></td>
+    <td align="center"><b>Ground Truth</b><br><img src="KetQuaNghienCuu/Anh/Ground_Truth_flame.png" width="200"/></td>
+    <td align="center"><b>CSDPPO</b><br><img src="KetQuaNghienCuu/Anh/CSDPPO_flame.png" width="200"/></td>
+    <td align="center"><b>PGD-CSDPPO</b><br><img src="KetQuaNghienCuu/Anh/PGD_CSDPPO_flame.png" width="200"/></td>
   </tr>
 </table>
 
 ### Bộ dữ liệu 2
 <table>
   <tr>
-    <td align="center"><b>Dữ liệu ban đầu</b><br><img src="path/to/image2_initial.png" width="200"/></td>
-    <td align="center"><b>Ground Truth</b><br><img src="path/to/image2_gt.png" width="200"/></td>
-    <td align="center"><b>CSDPPO</b><br><img src="path/to/image2_csdppo.png" width="200"/></td>
-    <td align="center"><b>PGD-CSDPPO</b><br><img src="path/to/image2_pgd.png" width="200"/></td>
+    <td align="center"><b>Dữ liệu ban đầu</b><br><img src="KetQuaNghienCuu/Anh/DLBD_spiral.png" width="200"/></td>
+    <td align="center"><b>Ground Truth</b><br><img src="KetQuaNghienCuu/Anh/Ground_Truth_spiral.png" width="200"/></td>
+    <td align="center"><b>CSDPPO</b><br><img src="KetQuaNghienCuu/Anh/CSDPPO_spiral.png" width="200"/></td>
+    <td align="center"><b>PGD-CSDPPO</b><br><img src="KetQuaNghienCuu/Anh/PGD_CSDPPO_spiral.png" width="200"/></td>
   </tr>
 </table>
 
 ### Bộ dữ liệu 3
 <table>
   <tr>
-    <td align="center"><b>Dữ liệu ban đầu</b><br><img src="Anh/DLBD_aggregation.png" width="200"/></td>
-    <td align="center"><b>Ground Truth</b><br><img src="Anh/Ground_Truth_aggregation.png" width="200"/></td>
-    <td align="center"><b>CSDPPO</b><br><img src="Anh/CSDPPO_aggregation.png" width="200"/></td>
+    <td align="center"><b>Dữ liệu ban đầu</b><br><img src="KetQuaNghienCuu/Anh/DLBD_aggregation.png" width="200"/></td>
+    <td align="center"><b>Ground Truth</b><br><img src="KetQuaNghienCuu/Anh/Ground_Truth_aggregation.png" width="200"/></td>
+    <td align="center"><b>CSDPPO</b><br><img src="KetQuaNghienCuu/Anh/CSDPPO_aggregation.png" width="200"/></td>
     <td align="center"><b>PGD-CSDPPO</b><br><img src="KetQuaNghienCuu/Anh/PGD_CSDPPO_aggregation.png" width="200"/></td>
   </tr>
 </table>
