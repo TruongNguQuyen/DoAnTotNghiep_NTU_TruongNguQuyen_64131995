@@ -6,35 +6,35 @@ Lưu trữ các kết quả thực nghiệm của đồ án tốt nghiệp.
 
 ## 1. Kết quả trực quan hóa phân cụm (Visualizations)
 
-Mỗi dòng dưới đây tương ứng với 4 ảnh kết quả nằm trên cùng một hàng:
+Mỗi dòng dưới đây tương ứng với 4 ảnh kết quả nằm trên cùng một hàng và được ép kích thước bằng nhau tuyệt đối:
 
 ### Bộ dữ liệu 1 (Flame)
 <table width="100%">
   <tr>
-    <td width="25%" align="center"><img src="KetQuaNghienCuu/Anh/DLBD_flame.png" width="100%"/><br><b>Dữ liệu ban đầu</b></td>
-    <td width="25%" align="center"><img src="KetQuaNghienCuu/Anh/Ground_Truth_flame.png" width="100%"/><br><b>Ground Truth</b></td>
-    <td width="25%" align="center"><img src="KetQuaNghienCuu/Anh/CSDPPO_flame.png" width="100%"/><br><b>CSDPPO</b></td>
-    <td width="25%" align="center"><img src="KetQuaNghienCuu/Anh/PGD_CSDPPO_flame.png" width="100%"/><br><b>PGD-CSDPPO</b></td>
+    <td width="25%" align="center"><img src="KetQuaNghienCuu/Anh/DLBD_flame.png" style="width:100%; height:180px; object-fit:cover;"/><br><b>Dữ liệu ban đầu</b></td>
+    <td width="25%" align="center"><img src="KetQuaNghienCuu/Anh/Ground_Truth_flame.png" style="width:100%; height:180px; object-fit:cover;"/><br><b>Ground Truth</b></td>
+    <td width="25%" align="center"><img src="KetQuaNghienCuu/Anh/CSDPPO_flame.png" style="width:100%; height:180px; object-fit:cover;"/><br><b>CSDPPO</b></td>
+    <td width="25%" align="center"><img src="KetQuaNghienCuu/Anh/PGD_CSDPPO_flame.png" style="width:100%; height:180px; object-fit:cover;"/><br><b>PGD-CSDPPO</b></td>
   </tr>
 </table>
 
 ### Bộ dữ liệu 2 (Spiral)
 <table width="100%">
   <tr>
-    <td width="25%" align="center"><img src="KetQuaNghienCuu/Anh/DLBD_spiral.png" width="100%"/><br><b>Dữ liệu ban đầu</b></td>
-    <td width="25%" align="center"><img src="KetQuaNghienCuu/Anh/Ground_Truth_spiral.png" width="100%"/><br><b>Ground Truth</b></td>
-    <td width="25%" align="center"><img src="KetQuaNghienCuu/Anh/CSDPPO_spiral.png" width="100%"/><br><b>CSDPPO</b></td>
-    <td width="25%" align="center"><img src="KetQuaNghienCuu/Anh/PGD_CSDPPO_spiral.png" width="100%"/><br><b>PGD-CSDPPO</b></td>
+    <td width="25%" align="center"><img src="KetQuaNghienCuu/Anh/DLBD_spiral.png" style="width:100%; height:180px; object-fit:cover;"/><br><b>Dữ liệu ban đầu</b></td>
+    <td width="25%" align="center"><img src="KetQuaNghienCuu/Anh/Ground_Truth_spiral.png" style="width:100%; height:180px; object-fit:cover;"/><br><b>Ground Truth</b></td>
+    <td width="25%" align="center"><img src="KetQuaNghienCuu/Anh/CSDPPO_spiral.png" style="width:100%; height:180px; object-fit:cover;"/><br><b>CSDPPO</b></td>
+    <td width="25%" align="center"><img src="KetQuaNghienCuu/Anh/PGD_CSDPPO_spiral.png" style="width:100%; height:180px; object-fit:cover;"/><br><b>PGD-CSDPPO</b></td>
   </tr>
 </table>
 
 ### Bộ dữ liệu 3 (Aggregation)
 <table width="100%">
   <tr>
-    <td width="25%" align="center"><img src="KetQuaNghienCuu/Anh/DLBD_aggregation.png" width="100%"/><br><b>Dữ liệu ban đầu</b></td>
-    <td width="25%" align="center"><img src="KetQuaNghienCuu/Anh/Ground_Truth_aggregation.png" width="100%"/><br><b>Ground Truth</b></td>
-    <td width="25%" align="center"><img src="KetQuaNghienCuu/Anh/CSDPPO_aggregation.png" width="100%"/><br><b>CSDPPO</b></td>
-    <td width="25%" align="center"><img src="KetQuaNghienCuu/Anh/PGD_CSDPPO_aggregation.png" width="100%"/><br><b>PGD-CSDPPO</b></td>
+    <td width="25%" align="center"><img src="KetQuaNghienCuu/Anh/DLBD_aggregation.png" style="width:100%; height:180px; object-fit:cover;"/><br><b>Dữ liệu ban đầu</b></td>
+    <td width="25%" align="center"><img src="KetQuaNghienCuu/Anh/Ground_Truth_aggregation.png" style="width:100%; height:180px; object-fit:cover;"/><br><b>Ground Truth</b></td>
+    <td width="25%" align="center"><img src="KetQuaNghienCuu/Anh/CSDPPO_aggregation.png" style="width:100%; height:180px; object-fit:cover;"/><br><b>CSDPPO</b></td>
+    <td width="25%" align="center"><img src="KetQuaNghienCuu/Anh/PGD_CSDPPO_aggregation.png" style="width:100%; height:180px; object-fit:cover;"/><br><b>PGD-CSDPPO</b></td>
   </tr>
 </table>
 
