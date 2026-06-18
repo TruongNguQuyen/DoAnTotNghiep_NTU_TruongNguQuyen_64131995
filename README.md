@@ -4,9 +4,62 @@ Lưu trữ các kết quả thực nghiệm của đồ án tốt nghiệp.
 
 ---
 
-## 1. Kết quả thời gian thực thi (Runtime Performance)
+## 1. Kết quả trực quan hóa phân cụm (Visualizations)
 
-Bảng dưới đây so sánh thời gian thực thi (tính bằng giây) giữa thuật toán Gốc và thuật toán Cải tiến trên các bộ dữ liệu khác nhau.
+Mỗi dòng dưới đây tương ứng với 4 ảnh kết quả nằm trên cùng một hàng:
+
+### Bộ dữ liệu 1
+<table>
+  <tr>
+    <td align="center"><b>Dữ liệu ban đầu</b><br><img src="path/to/image1_initial.png" width="200"/></td>
+    <td align="center"><b>Ground Truth</b><br><img src="path/to/image1_gt.png" width="200"/></td>
+    <td align="center"><b>CSDPPO</b><br><img src="path/to/image1_csdppo.png" width="200"/></td>
+    <td align="center"><b>PGD-CSDPPO</b><br><img src="path/to/image1_pgd.png" width="200"/></td>
+  </tr>
+</table>
+
+### Bộ dữ liệu 2
+<table>
+  <tr>
+    <td align="center"><b>Dữ liệu ban đầu</b><br><img src="path/to/image2_initial.png" width="200"/></td>
+    <td align="center"><b>Ground Truth</b><br><img src="path/to/image2_gt.png" width="200"/></td>
+    <td align="center"><b>CSDPPO</b><br><img src="path/to/image2_csdppo.png" width="200"/></td>
+    <td align="center"><b>PGD-CSDPPO</b><br><img src="path/to/image2_pgd.png" width="200"/></td>
+  </tr>
+</table>
+
+### Bộ dữ liệu 3
+<table>
+  <tr>
+    <td align="center"><b>Dữ liệu ban đầu</b><br><img src="path/to/image3_initial.png" width="200"/></td>
+    <td align="center"><b>Ground Truth</b><br><img src="path/to/image3_gt.png" width="200"/></td>
+    <td align="center"><b>CSDPPO</b><br><img src="path/to/image3_csdppo.png" width="200"/></td>
+    <td align="center"><b>PGD-CSDPPO</b><br><img src="path/to/image3_pgd.png" width="200"/></td>
+  </tr>
+</table>
+
+---
+
+## 2. Kết quả thực nghiệm các bộ dữ liệu thành phố và dữ liệu nhóm
+
+Bảng thống kê và so sánh chỉ số Silhouette cùng thời gian thực thi (Runtime) giữa thuật toán Gốc và Cải tiến.
+
+| Datasets | Thuật toán | Silhouette | Runtime (seconds) | % Silhouette vs Original | % Runtime vs Original | No. Clusters |
+| :--- | :--- | :---: | :---: | :---: | :---: | :---: |
+| **CanTho** | Gốc | 0.8211 | 1.8944 | 100% | 100% | 3 |
+| | Cải tiến | 0.8211 | 0.0765 | 100% | 4% | 3 |
+| **DongNai** | Gốc | 0.6456 | 0.9925 | 100% | 100% | 2 |
+| | Cải tiến | 0.6456 | 0.0673 | 100% | 7% | 2 |
+| **Nhom1** | Gốc | 0.7040 | 7.1503 | 100% | 100% | 5 |
+| | Cải tiến | 0.7040 | 2.4182 | 100% | 34% | 5 |
+| **Nhom2** | Gốc | 0.6631 | 2.4563 | 100% | 100% | 2 |
+| | Cải tiến | 0.6631 | 0.2112 | 100% | 9% | 2 |
+| **Nhom3** | Gốc | 0.5970 | 4.3370 | 100% | 100% | 3 |
+| | Cải tiến | 0.5970 | 0.2246 | 100% | 5% | 3 |
+
+---
+
+## 3. Kết quả thời gian thực thi (Bộ dữ liệu gốc)
 
 | Datasets | Thuật toán | Runtime (seconds) | % Runtime vs Original | Số lượng mẫu (N) | Số chiều | No. Clusters |
 | :--- | :--- | :---: | :---: | :---: | :---: | :---: |
@@ -21,9 +74,7 @@ Bảng dưới đây so sánh thời gian thực thi (tính bằng giây) giữa
 
 ---
 
-## 2. Thống kê số lượng phép so sánh khoảng cách và tỉ lệ cắt
-
-Bảng so sánh số lượng phép tính khoảng cách cần thực hiện và tỷ lệ cắt giảm được nhờ thuật toán cải tiến.
+## 4. Thống kê số lượng phép so sánh khoảng cách và tỉ lệ cắt
 
 | Datasets | Thuật toán | Số phép so sánh | 1 – (Số phép so sánh vs Original) % | Số lượng mẫu (N) | Số chiều | No. Clusters |
 | :--- | :--- | :---: | :---: | :---: | :---: | :---: |
@@ -38,9 +89,7 @@ Bảng so sánh số lượng phép tính khoảng cách cần thực hiện và
 
 ---
 
-## 3. So sánh kết quả phân cụm (Clustering Quality)
-
-Bảng so sánh chất lượng phân cụm thông qua các chỉ số ARI, NMI và Sai số tuyệt đối nhằm chứng minh thuật toán cải tiến giữ nguyên được độ chính xác.
+## 5. So sánh kết quả phân cụm (Chất lượng phân cụm)
 
 | Datasets | Thuật toán | ARI | NMI | Sai số tuyệt đối | Số lượng mẫu (N) | Số chiều | No. Clusters |
 | :--- | :--- | :---: | :---: | :---: | :---: | :---: | :---: |
