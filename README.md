@@ -6,8 +6,6 @@ Lưu trữ các kết quả thực nghiệm của đồ án tốt nghiệp.
 
 ## 1. Kết quả trực quan hóa phân cụm (Visualizations)
 
-Mỗi dòng dưới đây tương ứng với 4 ảnh kết quả nằm trên cùng một hàng và được ép kích thước bằng nhau tuyệt đối:
-
 ### Bộ dữ liệu 1 (Flame)
 <table width="100%">
   <tr>
