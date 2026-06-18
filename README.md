@@ -99,13 +99,3 @@ Bảng thống kê và so sánh chỉ số Silhouette cùng thời gian thực t
 | | Cải tiến | 0.9978 | 0.9957 | 0.0 | 788 | 2 | 7 |
 | **Iris** | Gốc | 0.8343 | 0.8244 | 0.0 | 150 | 4 | 3 |
 | | Cải tiến | 0.8343 | 0.8244 | 0.0 | 150 | 4 | 3 |
-
----
-## 2. Lưu đồ thuật toán (Flowchart)
-
-<p align="center">
-  <img src="KetQuaNghienCuu/Anh/sodokhoi.png" width="80%" alt="Lưu đồ thuật toán Cải tiến"/>
-  <br>
-  <i>Hình 1: Quy trình thực thi của thuật toán cải tiến</i>
-</p>
----
